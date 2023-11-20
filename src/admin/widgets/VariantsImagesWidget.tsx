@@ -28,8 +28,17 @@ const VariantsImagesWidget = ({
           level="h1"
           className="flex items-center justify-between gap-x-4 text-2xl font-semibold"
         >
-          <div>Variants Images</div>
+          <div>Variants Images (forked version 2)</div>
         </Heading>
+        <table>
+          <tr>
+            <td>Thumbnail</td>
+            <td>SKU</td>
+            <td>Name</td>
+            <td>Colour</td>
+            <td>Price</td>
+          </tr>
+        </table>
         {product.variants.map((variant) => (
           <div key={variant.id} className="mt-3 w-full">
             <div className="flex items-center">

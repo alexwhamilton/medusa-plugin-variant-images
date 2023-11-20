@@ -1,16 +1,16 @@
 {
-  "name": "medusa-plugin-variant-images",
+  "name": "medusa-plugin-variant-images-xplabs",
   "version": "1.0.4",
   "description": "Plugin for adding images and thumbnail to variants",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andriinuts/medusa-plugin-variant-images"
+    "url": "https://github.com/alexwhamilton/medusa-plugin-variant-images"
   },
   "files": [
     "dist"
   ],
-  "author": "Andrii Nutskovskyi <andrii.nutskovskyi@gmail.com>",
+  "author": "Alex Hamilton <alex.hamilton@experience-labs.co.uk>",
   "license": "MIT",
   "scripts": {
     "prepare": "cross-env NODE_ENV=production yarn run build",
@@ -36,7 +36,7 @@
     }
   },
   "peerDependencies": {
-    "@medusajs/medusa": "^1.14.0",
+    "@medusajs/medusa": "1.17.4",
     "@medusajs/ui": "^1.0.0",
     "@medusajs/icons": "^1.0.0",
     "medusa-react": "^9.0.4",
